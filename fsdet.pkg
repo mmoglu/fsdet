@@ -1,0 +1,10 @@
+v 1.0.0
+d 'FSDET': Factor score determinacy coefficient
+d 
+d Stata module to compute Factor score determinacy coefficient
+d 
+d Distribution-Date:   20211124
+d License: MIT
+d 
+F fsdet.ado
+F fsdet.sthlp
