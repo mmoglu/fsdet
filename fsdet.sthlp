@@ -32,7 +32,7 @@ KW: indeterminacy
 
 {title:Examples}
 
-{phang}{stata "use http://www.ats.ucla.edu/stat/stata/output/m255, clear": . use http://www.ats.ucla.edu/stat/stata/output/m255, clear}{p_end}
+{phang}{stata "use https://stats.idre.ucla.edu/stat/stata/output/m255, clear": . use https://stats.idre.ucla.edu/stat/stata/output/m255, clear}{p_end}
 {phang}{stata "keep item13 item14 item15 item16 item27 item39": . keep item13 item14 item15 item16 item27 item39}{p_end}
 
 {phang}{stata "qui factor item13 item14 item15 item16 item27 item39, factors(2)": . qui factor item13 item14 item15 item16 item27 item39, factors(2)}  (without rotation){p_end}
